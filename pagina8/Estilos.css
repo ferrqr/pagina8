@@ -1,0 +1,117 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #eef1ff; 
+    color: #333;
+    
+}
+
+
+
+.nav {
+    list-style: none;
+    background: #4a8cff;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    background: white;
+    color: #4a8cff;
+    box-shadow: 0 0 8px rgba(255,255,255,0.7);
+}
+
+
+
+.galeria {
+    width: 220px;
+    margin: 10px;
+    border: 2px solid #8bb5ff;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.galeria:hover {
+    transform: scale(1.05);
+    border-color: #4a8cff;
+}
+
+
+
+table {
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin-top: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+table th {
+    background: #4a8cff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+table tr:hover {
+    background: #f0f4ff;
+}
+
+
+
+input, textarea {
+    width: 300px;
+    padding: 8px;
+    margin-top: 6px;
+    border: 2px solid #8bb5ff;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #4a8cff;
+    box-shadow: 0 0 8px rgba(74,140,255,0.5);
+}
+
+button {
+    background: #4a8cff;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #325fcc;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
